@@ -10,6 +10,12 @@ jobs:
 locations:
   SAMPLE:
     mappingDefinitions:
+      "11":
+        database: SNOWFLAKE_SAMPLE_DATA
+        schema: TPCH_SF1
+      "12":
+        database: SNOWFLAKE_SAMPLE_DATA
+        schema: TPCH_SF1
       "2":
         database: ""
         schema: ""
@@ -18,6 +24,12 @@ locations:
         schema: ""
   WORK:
     mappingDefinitions:
+      "11":
+        database: PC_COALESCE_DB
+        schema: TEST
+      "12":
+        database: PC_COALESCE_DB
+        schema: PROD
       "2":
         database: ""
         schema: ""
